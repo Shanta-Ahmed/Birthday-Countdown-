@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+#name {
+    color: rgb(22, 206, 151);
+}
+
+#name:hover {
+   color: rgb(233, 111, 12); 
+   cursor: pointer;
+}
+
+body{
+    background-image: url(../images/g.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-size: 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pushster', cursive;
+    
+    
+}
+
+h2{
+    text-align: center;
+    margin: -10rem;
+    font-size: 3rem;
+    color: rgb(79, 21, 240);
+    flex-wrap: wrap;
+    
+
+}
+
+/* flex means side by side */
+/* wrap mrans choto korle responsive hobe */
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap; 
+    
+}
+.text{
+font-size: 2rem;
+line-height: 1rem;
+margin: 0 1rem;
+
+}
+.countdown-box{
+/* text-align: center; */
+/* margin: .5rem; */
+padding: 2rem;
+color: rgb(5, 104, 2);
+}
+
+
